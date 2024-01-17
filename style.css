@@ -382,7 +382,9 @@ footer .conty {
     height: 50px;
     font-size: 15px;
   }
-
+  .line{
+    height: 6px;
+  }
 
 
 
@@ -473,7 +475,9 @@ footer .conty {
 
 @media only screen and (min-width: 540px) and (max-width: 799px) {
 
-
+  .line{
+    height: 5px;
+  }
   nav img {
     max-width: 120px;
     max-height: 30px;
@@ -612,6 +616,9 @@ footer .conty {
 
 @media only screen and (min-width: 370px) and (max-width: 539px)
 {
+  .line{
+    height: 6px;
+  }
   nav{
     justify-content: space-between;
   }
@@ -622,9 +629,9 @@ footer .conty {
 
   button {
     padding: 3px 8px;
-    width: 56.9px;
-    height: 29px;
-    font-size: 12.5px;
+    width: 90px;
+    height: 30px;
+    font-size: 13px;
   }
   .right select {
     width: 80px;
